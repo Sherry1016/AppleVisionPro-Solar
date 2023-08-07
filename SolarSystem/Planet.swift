@@ -1,5 +1,5 @@
 //
-//  Jupiter.swift
+//  Planet.swift
 //  SolarSystem
 //
 //  Created by Zijun Ye
