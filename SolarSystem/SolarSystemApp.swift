@@ -2,20 +2,19 @@
 //  SolarSystemApp.swift
 //  SolarSystem
 //
-//  Created by Zheng Li on 7/29/23.
+//  Created by Zijun Ye
 //
 
 import SwiftUI
+
 
 @main
 struct SolarSystemApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Planet()
         }.windowStyle(.volumetric)
+        
 
-        ImmersiveSpace(id: "ImmersiveSpace") {
-            ImmersiveView()
-        }
     }
 }
