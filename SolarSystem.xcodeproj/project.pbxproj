@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B9830012A81C13F00126E08 /* Sun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9830002A81C13F00126E08 /* Sun.swift */; };
+		1B9830032A81C18C00126E08 /* SunEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9830022A81C18C00126E08 /* SunEntity.swift */; };
+		1B9830072A81C4F500126E08 /* SunEntity+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9830062A81C4F500126E08 /* SunEntity+Configuration.swift */; };
+		1B9830172A81F7DA00126E08 /* RotationSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9830142A81F7DA00126E08 /* RotationSystem.swift */; };
+		1B9830182A81F7DA00126E08 /* PlanetEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9830152A81F7DA00126E08 /* PlanetEntity.swift */; };
+		1B9830192A81F7DA00126E08 /* PlanetEntity+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9830162A81F7DA00126E08 /* PlanetEntity+Configuration.swift */; };
 		1BEA880C2A763F9B005B28ED /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 1BEA880B2A763F9B005B28ED /* RealityKitContent */; };
 		1BEA880E2A763F9B005B28ED /* SolarSystemApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEA880D2A763F9B005B28ED /* SolarSystemApp.swift */; };
 		1BEA88102A763F9B005B28ED /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEA880F2A763F9B005B28ED /* Planet.swift */; };
@@ -15,6 +21,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B9830002A81C13F00126E08 /* Sun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sun.swift; sourceTree = "<group>"; };
+		1B9830022A81C18C00126E08 /* SunEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunEntity.swift; sourceTree = "<group>"; };
+		1B9830062A81C4F500126E08 /* SunEntity+Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SunEntity+Configuration.swift"; sourceTree = "<group>"; };
+		1B9830142A81F7DA00126E08 /* RotationSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotationSystem.swift; sourceTree = "<group>"; };
+		1B9830152A81F7DA00126E08 /* PlanetEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetEntity.swift; sourceTree = "<group>"; };
+		1B9830162A81F7DA00126E08 /* PlanetEntity+Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PlanetEntity+Configuration.swift"; sourceTree = "<group>"; };
 		1BEA88062A763F9B005B28ED /* SolarSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SolarSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BEA880A2A763F9B005B28ED /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		1BEA880D2A763F9B005B28ED /* SolarSystemApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarSystemApp.swift; sourceTree = "<group>"; };
@@ -58,6 +70,12 @@
 			children = (
 				1BEA880D2A763F9B005B28ED /* SolarSystemApp.swift */,
 				1BEA880F2A763F9B005B28ED /* Planet.swift */,
+				1B9830002A81C13F00126E08 /* Sun.swift */,
+				1B9830022A81C18C00126E08 /* SunEntity.swift */,
+				1B9830062A81C4F500126E08 /* SunEntity+Configuration.swift */,
+				1B9830152A81F7DA00126E08 /* PlanetEntity.swift */,
+				1B9830162A81F7DA00126E08 /* PlanetEntity+Configuration.swift */,
+				1B9830142A81F7DA00126E08 /* RotationSystem.swift */,
 				1BEA88132A763F9D005B28ED /* Assets.xcassets */,
 				1BEA88182A763F9D005B28ED /* Info.plist */,
 				1BEA88152A763F9D005B28ED /* Preview Content */,
@@ -154,8 +172,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B9830072A81C4F500126E08 /* SunEntity+Configuration.swift in Sources */,
 				1BEA88102A763F9B005B28ED /* Planet.swift in Sources */,
+				1B9830182A81F7DA00126E08 /* PlanetEntity.swift in Sources */,
+				1B9830172A81F7DA00126E08 /* RotationSystem.swift in Sources */,
+				1B9830032A81C18C00126E08 /* SunEntity.swift in Sources */,
+				1B9830192A81F7DA00126E08 /* PlanetEntity+Configuration.swift in Sources */,
 				1BEA880E2A763F9B005B28ED /* SolarSystemApp.swift in Sources */,
+				1B9830012A81C13F00126E08 /* Sun.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

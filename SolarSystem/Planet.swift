@@ -51,7 +51,7 @@ struct Planet: View {
                 }
                 .offset(z: modelDepth)
 
-            Picker("Satellite", selection: $selection) {
+            Picker("Earth", selection: $selection) {
                 ForEach(Item.allCases) { item in
                     Text(item.name)
                 }
